@@ -1,7 +1,7 @@
 <!-- Global Variables -->
 <?php
 $myRoot = $_SERVER['DOCUMENT_ROOT'];
-$projectName = "Responsive website with php & MySql";
+$projectName = "Responsive-website-with-php-MySql-main";
 $includesSrc = $myRoot . '/' . $projectName . '/blueprint/php/includes';
 $imageSrc = 'http://localhost:8080/' . $projectName . '/resources/images(royalty-free)/blog';
 ?>

@@ -5,7 +5,7 @@ session_start();
 // Main Variables
 $myRoot = $_SERVER['DOCUMENT_ROOT'];
 $myHost = 'http://localhost:8080/';
-$projectName = "Responsive website with php & MySql";
+$projectName = "Responsive-website-with-php-MySql-main";
 
 // Php and Links
 $myPageLink = $myHost . $projectName . '/blueprint/php';
@@ -61,7 +61,7 @@ if (isset($_SESSION['user_id'])) {
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <!-- Title of the page -->
- <title>Responsive website with php & MySql</title>
+ <title>Responsive-website-with-php-MySql-main</title>
 
 
  <!-- bootstrap css offline -->
@@ -74,8 +74,7 @@ if (isset($_SESSION['user_id'])) {
  <link rel="stylesheet" href="<?= $fontawesomeCss ?>">
 
  <!-- bootstrap css online -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
  <!-- custom css -->
  <link rel="stylesheet" href="<?= $customCss ?>">
@@ -95,8 +94,7 @@ if (isset($_SESSION['user_id'])) {
  <div class="MyNav-container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
    <a class="navbar-brand" href="<?= $myPageLink ?>/homepage.php">| UR Sales |</a>
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
    </button>
 
@@ -109,8 +107,7 @@ if (isset($_SESSION['user_id'])) {
       <a class="nav-link" href="<?= $myPageLink ?>/pricing.php">Pricing</a>
      </li>
      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-       aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
        Services
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -145,8 +142,7 @@ if (isset($_SESSION['user_id'])) {
 
      </li>
      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="avatarDropdownMenulink" role="button" data-toggle="dropdown"
-       aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" href="#" id="avatarDropdownMenulink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
        <?php
        if (!isset($_SESSION['user_id'])) {
         echo "

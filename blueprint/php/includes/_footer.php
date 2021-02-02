@@ -1,7 +1,7 @@
 <!-- Global Variables -->
 <?php
 $myRoot = $_SERVER['DOCUMENT_ROOT'];
-$projectName = "Responsive website with php & MySql";
+$projectName = "Responsive-website-with-php-MySql-main";
 $includesSrc = $myRoot . '/' . $projectName . '/blueprint/php/includes';
 // $myCSS = $myRoot . '/' . $projectName . '/resources/css';
 $myJS = 'http://localhost:8080/' . $projectName . '/resources/js';
@@ -108,8 +108,7 @@ $customJs = $myJS . '/jscript.js';
 <script src="<?= $bootstrapMinJs ?>"></script>
 
 <!-- bootstrap js online -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
- integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 <!-- Font Awesome js -->
 <!-- <script src="<?= $fontawesomeMinJs ?>"></script> -->

@@ -1,7 +1,7 @@
 <!-- Global Variables -->
 <?php
 $myRoot = $_SERVER['DOCUMENT_ROOT'];
-$projectName = "Responsive website with php & MySql";
+$projectName = "Responsive-website-with-php-MySql-main";
 $includesSrc = $myRoot . '/' . $projectName . '/blueprint/php/includes';
 
 $myPageLink = 'http://localhost:8080/' . $projectName . '/blueprint/php';
@@ -54,15 +54,13 @@ include($includesSrc . '/_header.php');
     <h2 class="text-center">Sign in</h2>
     <form action="<?= $myPageLink ?>/includes/login_logic.php" method="POST" enctype="multipart/form-data">
      <div class="form-group w-75">
-      <input name="user_name_email" id="nameEmail" type="text" class="form-control w-100 input-lg p-3"
-       placeholder="Username/Email">
+      <input name="user_name_email" id="nameEmail" type="text" class="form-control w-100 input-lg p-3" placeholder="Username/Email">
       <div class="form-error clearfix">
        <span></span>
       </div>
      </div>
      <div class="form-group w-75">
-      <input name="user_password" id="logPassword" type="password" class="form-control w-100 input-lg p-3"
-       placeholder="Password">
+      <input name="user_password" id="logPassword" type="password" class="form-control w-100 input-lg p-3" placeholder="Password">
       <div class="form-error clearfix">
        <span></span>
       </div>
@@ -167,8 +165,7 @@ include($includesSrc . '/_header.php');
        </div>
       </div>
       <div class="col-4 float-left">
-       <input name="userRegisterBtn" id="reg_btn" type="submit" class="form-control btn-primary radius-10"
-        value="Register">
+       <input name="userRegisterBtn" id="reg_btn" type="submit" class="form-control btn-primary radius-10" value="Register">
       </div>
      </div>
     </form>

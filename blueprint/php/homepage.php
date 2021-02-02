@@ -3,7 +3,7 @@
 
 $myRoot = $_SERVER['DOCUMENT_ROOT'];
 $myHost = 'http://localhost:8080/';
-$projectName = "Responsive website with php & MySql";
+$projectName = "Responsive-website-with-php-MySql-main";
 
 $includesSrc = $myRoot . '/' . $projectName . '/blueprint/php/includes';
 // $includesSrc = $myHost . $projectName . '/blueprint/php/includes';
@@ -79,28 +79,32 @@ include($includesSrc . '/_header.php');
     <i class="fa fa-paper-plane" aria-hidden="true"></i>
     Speed
    </h1>
-   <p class="min-line-4">The speed is insane. Like really insanely fast. You won't regret this ever, not today not tomorrow, not ever again.</p>
+   <p class="min-line-4">The speed is insane. Like really insanely fast. You won't regret this ever, not today not
+    tomorrow, not ever again.</p>
   </div>
   <div class="bg-primary">
    <h1 class="color-creamywhite">
     <i class="fa fa-wifi" aria-hidden="true"></i>
     Reliability
    </h1>
-   <p class="min-line-4">Reliability is the big key. The customer should be satisfied and this happens when there is proper team management.</p>
+   <p class="min-line-4">Reliability is the big key. The customer should be satisfied and this happens when there is
+    proper team management.</p>
   </div>
   <div class="bg-crimson">
    <h1 class="color-creamywhite">
     <i class="fa fa-star" aria-hidden="true"></i>
     Top Quality
    </h1>
-   <p class="min-line-4">Hey Hey! Don't forget that the quality we offer is top-notch and with speed and reliability, I must say it is awesome.</p>
+   <p class="min-line-4">Hey Hey! Don't forget that the quality we offer is top-notch and with speed and reliability, I
+    must say it is awesome.</p>
   </div>
   <div class="bg-teal">
    <h1 class="color-creamywhite">
     <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
     Well Liked
    </h1>
-   <p class="min-line-4">Customer satisfaction is our top priority so obv we are well liked by people. Our trademark is good.</p>
+   <p class="min-line-4">Customer satisfaction is our top priority so obv we are well liked by people. Our trademark is
+    good.</p>
   </div>
  </div>
 </div>
@@ -111,7 +115,8 @@ include($includesSrc . '/_header.php');
   <div class="bg-primary">
    <div class="homepage-quote bg-opac-white">
     <blockquote class="blockquote border-0 p-0">
-     <p class="font-italic lead"> <i class="fa fa-quote-left mr-3 text-success"></i>Experience a new journey to your dazzling future by choosing us.</p>
+     <p class="font-italic lead"> <i class="fa fa-quote-left mr-3 text-success"></i>Experience a new journey to your
+      dazzling future by choosing us.</p>
      <footer class="blockquote-footer color-crimson">
       Prof. Bernard Thatcher
       <cite title="Source Title">Md. Economist</cite>
@@ -119,7 +124,9 @@ include($includesSrc . '/_header.php');
     </blockquote>
    </div>
    <div class="celeb-pics">
-    <img src="https://images.pexels.com/photos/5843451/pexels-photo-5843451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+    <img
+     src="https://images.pexels.com/photos/5843451/pexels-photo-5843451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+     alt="">
    </div>
   </div>
 
@@ -143,7 +150,9 @@ include($includesSrc . '/_header.php');
     </div>
    </div>
    <div class="celeb-pics">
-    <img src="https://images.pexels.com/photos/4524369/pexels-photo-4524369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+    <img
+     src="https://images.pexels.com/photos/4524369/pexels-photo-4524369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+     alt="">
    </div>
 
   </div>
