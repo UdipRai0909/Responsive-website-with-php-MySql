@@ -13,8 +13,3 @@ CREATE table users (
  retype_password VARCHAR(255) NOT NULL,
  user_avatar_image VARCHAR(255) NOT NULL
 );
-
-
-INSERT INTO USERS (first_name, last_name, user_name, email_address, gender, date_of_birth, password, retype_password)
-VALUES ("Udip", "Rai", "udiprai0329", "official_ur_sales@gmail.com", "M", "1998-09-24", "mypass123", "mypass123");
-
