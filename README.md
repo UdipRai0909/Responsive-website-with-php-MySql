@@ -1,6 +1,6 @@
-> #Responsive website with php & MySql
+# Responsive website with php & MySql
 
-#Features:
+## Features
 
 1. Bootstrap v4.0.0
 
@@ -13,10 +13,10 @@
 
 1. Language used: Pure php (no framework)
 
-#Programs used:
+## Programs used
 
 1. VS-Code
 
-2. XAMPP
+1. XAMPP
 
-3. Browser (Chrome)
+1. Browser (Chrome)
