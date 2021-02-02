@@ -8,6 +8,8 @@
 
    1. javascript and jQuery validation
    1. php validation
+   1. jquery Search contents in page
+   1. php Search funnctionality (will add later)
 
 ## Database used:
 
@@ -33,7 +35,7 @@ MySQL
 
 ## Video Demo
 
-[link text itself]: http://www.reddit.com
+[link text itself]
 
 ## Steps to reproduce
 
