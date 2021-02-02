@@ -1,0 +1,20 @@
+CREATE database udiprai_sales_company;
+USE udiprai_sales_company;
+
+CREATE table users (
+	user_id INT PRIMARY KEY AUTO_INCREMENT,
+	first_name VARCHAR(30) NOT NULL,
+	last_name VARCHAR(30) NOT NULL,
+	user_name VARCHAR(30) NOT NULL,
+	email_address VARCHAR(60) NOT NULL,
+	gender VARCHAR(12) NOT NULL,
+	date_of_birth VARCHAR(12) NOT NULL,
+	password VARCHAR(255) NOT NULL,
+ retype_password VARCHAR(255) NOT NULL,
+ user_avatar_image VARCHAR(255) NOT NULL
+);
+
+
+INSERT INTO USERS (first_name, last_name, user_name, email_address, gender, date_of_birth, password, retype_password)
+VALUES ("Udip", "Rai", "udiprai0329", "official_ur_sales@gmail.com", "M", "1998-09-24", "mypass123", "mypass123");
+

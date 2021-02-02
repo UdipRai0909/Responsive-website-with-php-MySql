@@ -1,0 +1,609 @@
+/* Common or Global */
+/* *:hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+} */
+.bg-opac-black {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.bg-opac-black2 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.bg-opac-black8 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.bg-opac-white {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.bg-reddit {
+  background-color: rgb(255, 69, 0);
+}
+.bg-snapchat {
+  background-color: #ffc107;
+}
+.bg-linkedin {
+  background-color: #0a66c2;
+}
+.bg-chrome {
+  background-color: #1adc67;
+}
+.bg-facebook {
+  background-color: #4267b2;
+}
+.bg-twitter {
+  background-color: #1da1f2;
+}
+.bg-instagram {
+  background-color: #8a3ab9;
+}
+.bg-youtube {
+  background-color: #ff0000;
+}
+.bg-google {
+  background-color: #ea4335;
+}
+.bg-teal {
+  background-color: teal;
+}
+.border-red2 {
+  border: 2px solid red;
+}
+.border-black2 {
+  border: 2px solid black;
+}
+.border-white2 {
+  border: 2px solid white;
+}
+.fifty-chars {
+  width: 50ch;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.min-line-4,
+.min-line-5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.min-line-4 {
+  -webkit-line-clamp: 4; /* number of lines to show */
+}
+.min-line-5 {
+  -webkit-line-clamp: 5; /* number of lines to show */
+}
+.radius-10 {
+  border-radius: 10px;
+}
+.color-creamywhite {
+  color: #f9f9f9;
+}
+.color-crimson {
+  color: rgba(236, 48, 20, 0.9);
+}
+.bg-crimson {
+  background-color: rgba(236, 48, 20, 0.9);
+}
+.text-error {
+  color: red;
+}
+mark {
+  background: orange;
+  color: black;
+}
+/* Header Section */
+.MyNav-container {
+  margin-left: 5rem;
+}
+.MyInfo-container {
+  margin-top: 2.5rem;
+  margin-left: 5rem;
+}
+.manage-dropitem {
+  display: block;
+  border: 1px solid rgb(0 0 0 / 32%);
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 2rem;
+  padding: 0.1rem;
+}
+.dropdown-menu.show {
+  min-width: 15rem;
+}
+
+/* Footer Section */
+.MyFooter-container {
+  background-image: url("https://images.pexels.com/photos/2318554/pexels-photo-2318554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Homepage (Page 1) */
+.MySlider-container {
+  margin-top: 2.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.MySlider-container .carousel .carousel-item {
+  height: 700px;
+  transition: 0.5s;
+}
+.MyPricingInfo-container .carousel .carousel-item {
+  height: 500px;
+}
+.MyPricingInfo-container .business-info img {
+  min-height: 300px;
+}
+.MySlider-container .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 700px;
+  object-fit: cover;
+}
+.MyPricingInfo-container .carousel-item img {
+  height: 500px;
+}
+.MySlider-container .special-card,
+.MyPricingInfo-container .special-card {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#pricingPage-myCarouselIndicators > li {
+  margin-left: 0.5rem;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 5rem !important;
+  width: 3rem !important;
+}
+
+.goals-container,
+.contact-container {
+  min-height: 300px;
+  padding: 0 5rem;
+  max-width: 100%;
+}
+.goals-container .row,
+.contact-container .row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 300px;
+}
+.goals-container .row div {
+  flex: 1;
+  align-self: stretch;
+  text-align: center;
+  padding-top: 3rem;
+}
+.goals-container .row div p {
+  border: 2px solid #f9f9f9d5;
+  margin: 1rem;
+  padding: 1rem;
+  color: #ffffffbe;
+}
+.contact-container .row div:first-child {
+  flex: 4;
+  align-self: stretch;
+  text-align: center;
+  height: 100%;
+  padding: 0;
+}
+.contact-container .row img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contact-container .row div:nth-child(2) {
+  flex: 2;
+  align-self: stretch;
+  text-align: center;
+  height: 100%;
+  padding: 0;
+}
+
+.contact-container .homepage-quote {
+  position: absolute;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  height: 5rem !important;
+  padding: 1rem !important;
+}
+
+.contact-container .info-pics {
+  position: absolute;
+  right: 5rem;
+  margin-top: 1rem;
+  height: 3.6rem !important;
+}
+.contact-container .info-pics button {
+  padding: 0.5rem 1rem;
+  color: #f9f9f9;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+}
+.contact-container .info-pics .card {
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  border-radius: 0.9rem;
+}
+.blockquote-footer::before {
+  content: "— ";
+  color: #198754;
+  font-size: 1.4rem;
+}
+
+/* Pricing Page (Page 2) */
+.MyPricingInfo-container {
+  min-height: 300px;
+}
+
+.MyPricingInfo-container .row {
+  min-height: 180px;
+}
+
+.pricing-table.demo10 {
+  /* background: #3f7d7d; */
+}
+
+.MyPricingInfo-container .pr-table {
+  margin: 0;
+  padding: 0 !important;
+}
+
+/* Service Page (Page 4) */
+.MyService-container {
+}
+#myServiceCarousel.carousel.slide .carousel-item {
+  min-height: 500px;
+}
+#myServiceCarousel.carousel.slide .carousel-item img {
+  height: 500px;
+}
+#myServiceCarousel.carousel.slide .carousel-item img,
+.services-market .featurette .col-md-5 img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.services-market .featurette .col-md-5 {
+  height: 250px;
+}
+.services-market .featurette .col-md-5 img {
+  min-height: 250px;
+}
+
+/* Blog Page (Page 4) */
+.MyBlog-container {
+}
+#nvbCollapse {
+  margin-right: 9rem;
+}
+.blogpost-slider .carousel-inner .carousel-item .row .col-md-4 .card {
+  display: flex;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.blogpost-slider .carousel-inner .carousel-item .row .col-md-4 .card .card-text,
+.min-line-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.blogpost-slider .carousel-inner .carousel-item .row .col-md-4 .card .card-pic {
+  align-self: stretch;
+  background: black;
+}
+.blogpost-slider
+  .carousel-inner
+  .carousel-item
+  .row
+  .col-md-4
+  .card
+  .card-pic
+  img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.blogpost-slider .carousel-indicators li::before {
+  background: rgb(24, 166, 223);
+}
+.blogpost-slider .carousel-indicators {
+  bottom: -2rem;
+}
+
+.blogpost-slider a.btn-floating.text-white.rounded-circle {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Why us? (Page 5) */
+.MyWhyUs-container {
+  /* background: radial-gradient(circle, black, white); */
+  /* background-image: url("https://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-cyan-solid-color-background.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-size: cover; */
+}
+.MyWhyUs-container .celeb-pics {
+  border: 2px solid red;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.MyWhyUs-container .celeb-pics img {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Login (Page 6) */
+.MyLogin-container {
+}
+
+.MyLogin-container .login-reg-panel {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 430px;
+}
+.MyLogin-container .login-reg-panel .login-info-box {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  left: 0;
+  flex: 2;
+  align-items: centert;
+  flex-direction: row;
+}
+
+.MyLogin-container .login-reg-panel .register-info-box {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  right: 0;
+  flex: 4;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.MyLogin-container .login-reg-panel .login-info-box .form-group.w-50 {
+  align-self: flex-end;
+  text-align: center;
+}
+.MyLogin-container .login-reg-panel .register-info-box .form-group.w-50 {
+  align-self: flex-end;
+  text-align: center;
+}
+.MyLogin-container .login-reg-panel input[type="radio"] {
+  position: relative;
+  display: none;
+}
+.MyLogin-container .login-reg-panel .login-info-box #label-register,
+.MyLogin-container .login-reg-panel .register-info-box #label-login {
+  border: 1px solid #9e9e9e;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.MyLogin-container .login-reg-panel .white-panel {
+  display: flex;
+  /* flex: 2; */
+  background-color: rgba(255, 255, 255, 1);
+  position: absolute;
+  /* top: -1rem; */
+  transform: translateY(-18%);
+  left: 5rem;
+  width: 40%;
+  height: 515px;
+  /* flex-direction: row; */
+  right: calc(50% - 50px);
+  transition: 0.3s ease-in-out;
+  z-index: 0;
+  box-shadow: 0 0 15px 9px #00000096;
+}
+.login-reg-panel .white-panel .login-show,
+.login-reg-panel .white-panel .register-show {
+  z-index: 1;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  text-align: left;
+}
+.login-reg-panel .white-panel .login-show {
+  padding-top: 3rem;
+}
+.right-log {
+  transform: translate(120%, -18%) !important;
+}
+.hide-log-panel {
+  display: none;
+}
+.show-log-panel {
+  display: flex;
+  position: absolute;
+  width: 90%;
+  flex: 1;
+  opacity: 0.9 !important;
+  flex-direction: column;
+  align-self: center;
+}
+.MyLogin-container .login-reg-panel {
+  align-self: center;
+}
+.MyLogin-container .white-panel .form-group.w-75,
+.MyLogin-container .white-panel .form-group.w-25 {
+  align-self: center;
+}
+
+.MyLogin-container .white-panel form {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.form-error {
+  height: 0.65rem;
+  color: rgb(255, 1, 1);
+  width: 100%;
+}
+
+input#uploadImg {
+  display: none;
+}
+
+label.uploadLabel {
+}
+
+/* Exchange (Page 8) */
+.MyExchange-container,
+.exchange-profile {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100%;
+}
+.MyExchange-container .exchange-slider {
+  max-width: 100%;
+}
+.exchange-slider .bg-image,
+.exchange-profile.bg-image {
+  background-image: url("https://mdbootstrap.com/img/new/slides/041.jpg");
+  height: 550px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: none;
+  background-size: cover;
+}
+.exchange-slider .mask {
+  max-width: 100%;
+  height: 100%;
+}
+.profile-card {
+  font-family: "Open Sans", Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  height: 368px;
+  border: none;
+}
+.profile-card .background-block {
+  float: left;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.profile-card .background-block img {
+  flex: 1;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.profile-card .background-block .background {
+  width: 100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(0.5px);
+  filter: blur(0.5px);
+  -webkit-transform: scale(1.8);
+  transform: scale(2.8);
+}
+.profile-card .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color: #232323;
+  float: left;
+  background: #efefef;
+  height: 50%;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  z-index: 9999;
+}
+.profile-card .card-content::before {
+  content: "";
+  background: #efefef;
+  width: 120%;
+  height: 100%;
+  left: 11px;
+  bottom: 51px;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-13deg);
+}
+.profile-card .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  z-index: 99999;
+}
+.profile-card h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.profile-card h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.profile-card i {
+  display: inline-block;
+  font-size: 16px;
+  color: #232323;
+  text-align: center;
+  border: 1px solid #232323;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.profile-card .icon-block {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+.profile-card .icon-block a {
+  text-decoration: none;
+}
+.profile-card i:hover {
+  background-color: #232323;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Welcome Page */
+.exchange-slider .bg-welcome,
+.exchange-profile.bg-image {
+  background-image: url("https://images.pexels.com/photos/636243/pexels-photo-636243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") !important;
+  height: 900px;
+}

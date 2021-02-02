@@ -1,0 +1,139 @@
+// Color variables (appears count calculates by raw css)
+@color0: #262626; // Appears 3 times
+@color1: #000000; // Appears 3 times
+@color2: #1fd100; // Appears 3 times
+
+// Width variables (appears count calculates by raw css)
+@width2: 100%; // Appears 2 times
+@width3: 94%; // Appears 3 times
+
+// Height variables (appears count calculates by raw css)
+@height0: 100%; // Appears 3 times
+
+.login_form * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  &:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  &:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+.login_form {
+  -moz-box-flex: center;
+  -moz-box-pack: center;
+  -moz-justify-content: center;
+  -ms-flex-pack: center;
+  -ms-flex: center;
+  -webkit-align-items: center;
+  -webkit-box-flex: center;
+  -webkit-box-pack: center;
+  -webkit-flex: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  flex: center;
+  height: @height0;
+  justify-content: center;
+}
+.login_form .login-wrapper {
+  max-width: 500px;
+  width: @width2;
+}
+.logo {
+  text-align: center;
+  img {
+    margin: 1em auto 2em;
+    max-width: 200px;
+    width: @width2;
+  }
+}
+.login_form form {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background: @color1;
+  border-radius: 5px;
+  font-family: helvetica, sans-serif;
+  padding: 2em 1em;
+  .login_form label {
+    color: #ffffff;
+    display: block;
+    font-family: helvetica, sans-serif;
+    margin: 0 3% 0.25em;
+  }
+  .login_form input {
+    -moz-border-radius: 5px;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    -webkit-border-radius: 5px;
+    -webkit-transition: all 0.25s;
+    border-radius: 5px;
+    border: 2px solid @color1;
+    font-size: 1.2em;
+    margin: 0 3% 1em;
+    outline: none;
+    padding: 0.5em 0.25em;
+    transition: all 0.25s;
+    width: @width3;
+    &:focus {
+      border: 2px solid @color2;
+    }
+  }
+  .login_form input.password {
+    padding-right: 4rem;
+  }
+  .login_form button {
+    -moz-border-radius: 5px;
+    -moz-transition: all 0.25s;
+    -ms-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    -webkit-border-radius: 5px;
+    -webkit-transition: all 0.25s;
+    background: @color2;
+    border-radius: 5px;
+    border: none;
+    clear: both;
+    color: @color1;
+    cursor: pointer;
+    font-size: 1.25em;
+    margin: 2em 3% 0;
+    outline: none;
+    padding: 1em 0;
+    transition: all 0.25s;
+    width: @width3;
+    &:focus {
+      background: @color0;
+    }
+    &:hover {
+      background: @color0;
+    }
+  }
+}
+.login_form .hide-show {
+  display: none;
+  margin: -3.62em 3% 0 1.5%;
+  position: relative;
+  width: @width3;
+  z-index: 5;
+  span {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: @color2;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-size: 1em;
+    padding: 0.5em;
+  }
+}
