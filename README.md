@@ -35,7 +35,7 @@ MySQL
 
 ## Video Demo
 
-[https://drive.google.com/file/d/1IucqQBp-KlqVh_gt3Pdre8nrf-m7s4ln/view?usp=sharing]
+[Google drive link](https://drive.google.com/file/d/1IucqQBp-KlqVh_gt3Pdre8nrf-m7s4ln/view?usp=sharing)
 
 ## Steps to reproduce
 
