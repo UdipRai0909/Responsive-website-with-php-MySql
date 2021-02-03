@@ -26,7 +26,7 @@ $fontawesomeCss = $myCSS . '/fontawesome.css';
 $customCss = $myCSS . '/style.css';
 $pricingTableCss = $myCSS . '/pricing_table.css';
 $blogNavCss = $myCSS . '/blog_navbar.css';
-$loginCss = $myCSS . '/login.css';
+$searchBarCss = $myCSS . '/search_bar.css';
 
 //SCSS
 $loginLess = $myLESS . '/login.less';
@@ -68,19 +68,32 @@ if (isset($_SESSION['user_id'])) {
  <link rel="stylesheet" href="<?= $bootstrapCss ?>">
  <!-- <link rel="stylesheet" href="<?= $bootstrapMinCss ?>"> -->
 
+ <!-- Fonts -->
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+ <link
+  href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Just+Another+Hand&display=swap"
+  rel="stylesheet">
+ <link
+  href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Just+Another+Hand&family=Raleway&display=swap"
+  rel="stylesheet">
+
  <!-- font awesome -->
- <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
+ <!-- link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet" -->
  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css.map" rel="stylesheet">
  <link rel="stylesheet" href="<?= $fontawesomeCss ?>">
 
  <!-- bootstrap css online -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
  <!-- custom css -->
  <link rel="stylesheet" href="<?= $customCss ?>">
  <link rel="stylesheet" href="<?= $pricingTableCss ?>">
  <link rel="stylesheet" href="<?= $blogNavCss ?>">
- <link rel="stylesheet" href="<?= $loginCss ?>">
+ <link rel="stylesheet" href="<?= $searchBarCss ?>">
 
  <!-- <link rel="stylesheet/less" type="text/css" href="<?= $loginLess ?>" /> -->
 
@@ -92,9 +105,10 @@ if (isset($_SESSION['user_id'])) {
 <body>
  <!-- Navbar Container -->
  <div class="MyNav-container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="<?= $myPageLink ?>/homepage.php">| UR Sales |</a>
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-light bg-opac-whiteHard">
+   <a class="navbar-brand border-black2 rounded-circle px-3" href="<?= $myPageLink ?>/homepage.php">UR Sales</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
    </button>
 
@@ -107,7 +121,8 @@ if (isset($_SESSION['user_id'])) {
       <a class="nav-link" href="<?= $myPageLink ?>/pricing.php">Pricing</a>
      </li>
      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+       aria-haspopup="true" aria-expanded="false">
        Services
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -123,15 +138,14 @@ if (isset($_SESSION['user_id'])) {
      <li class="nav-item">
       <a class="nav-link" href="<?= $myPageLink ?>/why-us.php">Why us?</a>
      </li>
-     <li class="nav-item">
-      <a class="nav-link" href="<?= $myPageLink ?>/exchange.php">
+     <li class="nav-item"> <a class="nav-link" href="<?= $myPageLink ?>/exchange.php">
        <i class="fa fa-exchange" aria-hidden="true"></i>
        Exchange
       </a>
      </li>
     </ul>
-    <ul class="navbar-nav mr-5">
-     <li class="nav-item pt-2">
+    <ul class="navbar-nav mr-navCustom pr-5">
+     <li class=" nav-item pt-2">
       <?php
       if (!isset($_SESSION['user_id'])) {
        echo "<a class='nav-link' href='$loginPage'>Join us</a>";
@@ -142,15 +156,16 @@ if (isset($_SESSION['user_id'])) {
 
      </li>
      <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="avatarDropdownMenulink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" href="#" id="avatarDropdownMenulink" role="button" data-toggle="dropdown"
+       aria-haspopup="true" aria-expanded="false">
        <?php
        if (!isset($_SESSION['user_id'])) {
         echo "
-        <img src='$defaultImg' width=35 height=35 class='rounded-circle'>
+        <img src='$defaultImg' class='rounded-circle'>
         ";
        } else {
         echo "
-        <img src='$myAvatarImage' width=35 height=35 class='rounded-circle'>
+        <img src='$myAvatarImage' class='rounded-circle'>
         ";
        }
        ?>
@@ -179,11 +194,19 @@ if (isset($_SESSION['user_id'])) {
        ?>
       </div>
      </li>
+     <li class="nav-item pt-2">
+      <div class="search search-bar">
+       <input type="text" class="search-box search-input" />
+       <span class="search-button">
+        <span class="search-icon"></span>
+       </span>
+      </div>
+     <li>
+     <li class="nav-item pt-2 ml-2">
+      <p class="search-count-text">Found: <span class="search-count"></span></p>
+     </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-     <input type="text" name="navSearchKeyword" class="form-control input-sm" placeholder="Type something..">
-     <button class="btn btn-outline-success my-2 my-sm-0" name="navSearchBtn" type="button">Search</button>
-    </form>
+
    </div>
   </nav>
  </div>

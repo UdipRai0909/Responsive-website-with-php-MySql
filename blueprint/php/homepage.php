@@ -17,12 +17,9 @@ include($includesSrc . '/_header.php');
 
 
 <!-- Info Container -->
-<div class="h-25 MyInfo-container">
+<div class="h-25 MyInfo-container bg-opac-black p-5 text-white">
  <h1>Welcome To Your Sales Journey</h1>
  <p>In this site, you can purchase and sell different items of your choice.
-  <br />
-  And oh! The delivery is quick so you will receive your item withing 2 hours at minimum on a regular working
-  day.
   <br />
   Customer Satisfaction is our topmost priority. So feel free to suggest any feedbacks.
  </p>

@@ -11,17 +11,17 @@ $imageSrc = 'http://localhost:8080/' . $projectName . '/resources/images(royalty
 include($includesSrc . '/_header.php');
 ?>
 
-<div class="container pt-3 MyWhyUs-container">
+<div class="container MyWhyUs-container">
  <div class="row">
   <div class="col-12 col-sm-10 mx-auto">
    <div class="row">
-    <div class="col-lg-12">
+    <div class="col-lg-12 bg-opac-black text-white p-3">
      <h1>Phenomenal Company Talents</h1>
      <p class="lead">Thanks to the company, some individuals have surprassed everyone's expectations.</p>
     </div>
     <div class="col-lg-6">
 
-     <div class="card">
+     <div class="card px-0">
       <div class="col-12">
        <div class="row bg-primary text-center text-white">
         <div class="col-4 p-0 bg-success celeb-pics">
@@ -52,7 +52,8 @@ include($includesSrc . '/_header.php');
         </div>
         <div class="col-md-5 py-3">
          <h3 class="card-title">Plans</h3>
-         <p class="card-text">With supporting roots below as a natural lead-in to additional content and then some more content that is here.</p>
+         <p class="card-text">With supporting roots below as a natural lead-in to additional content and then some more
+          content that is here.</p>
          <a href="#" class="btn btn-outline-success btn-block">See more</a>
         </div>
        </div>
@@ -206,7 +207,8 @@ include($includesSrc . '/_header.php');
       <div class="container-fluid">
        <div class="row bg-info py-5 border-black2">
         <div class="col-4 mx-auto">
-         <img class="rounded-circle img-fluid border-white2" src="<?= $imageSrc ?>/why-us_page-3.jpg" alt="Michael Scott">
+         <img class="rounded-circle img-fluid border-white2" src="<?= $imageSrc ?>/why-us_page-3.jpg"
+          alt="Michael Scott">
         </div>
         <div class="col-12 text-center">
          <h3>Michael Scott</h3>
@@ -317,7 +319,7 @@ include($includesSrc . '/_header.php');
   </div>
  </div>
  <hr>
- <p class="mt-4 text-center">Keep the dream alive!</p>
+ <p class="bg-opac-black text-white mt-3 p-3 font-railway display-4 text-center">Keep the dream alive!</p>
 </div>
 
 <!-- Include footer -->

@@ -1,5 +1,6 @@
 <!-- Global Variables -->
 <?php
+
 $myRoot = $_SERVER['DOCUMENT_ROOT'];
 $projectName = "Responsive-website-with-php-MySql-main";
 $includesSrc = $myRoot . '/' . $projectName . '/blueprint/php/includes';
@@ -22,21 +23,27 @@ include($includesSrc . '/_header.php');
       <blockquote class="blockquote border-0 p-0">
        <h1 class="mb-3 lead">
         <i class="fa fa-quote-left mr-3 text-success"></i>
-        <span class="text-white">Welcome,
+        <strong class="text-white">Welcome,
 
          <?php
-         if (isset($_GET['signin'])) {
-          if ($_GET['signin'] == 'welcome_page') {
-           echo '<small>' . $_SESSION['user_name'] . '</small>';
+         if ($_SESSION['user_id'] == 1) {
+          echo '<small>' . $_SESSION['user_name'] . '</small>';
+         } else if ($_SESSION['user_id'] != 1) {
+          if (isset($_GET['signin'])) {
+           if ($_GET['signin'] == 'welcome_page') {
+            $_SESSION['user_id'] = 1;
+           }
+          } else {
+           //do something
           }
          }
          ?>
 
-        </span>
+        </strong>
        </h1>
       </blockquote>
-      <h4 class="mb-3 blockquote-footer text-muted"><small>We have been working with some fine talents in the company
-        to develop something.</small></h4>
+      <h4 class="mb-3 blockquote-footer text-muted">We have been working with some fine talents in the company
+       to develop something.</h4>
       <a class="btn btn-outline-light btn-lg" href="#!" role="button">Find more</a>
      </div>
     </div>

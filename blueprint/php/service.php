@@ -28,7 +28,7 @@ include($includesSrc . '/_header.php');
 ?>
 
 
-<div class="MyService-container container">
+<div class="MyService-container container pt-2">
  <div id="myServiceCarousel" class="carousel slide mt-5" data-ride="carousel">
   <ol class="carousel-indicators">
    <li data-target="#myServiceCarousel" data-slide-to="0" class="active"></li>
@@ -89,7 +89,8 @@ include($includesSrc . '/_header.php');
 
    <div class="col-lg-4">
     <div class="d-flex justify-content-center">
-     <img class="rounded-circle" src="<?= $imageSrc ?>/service-page4.jpg" alt="Mashashi Kishimoto" width="140" height="140">
+     <img class="rounded-circle" src="<?= $imageSrc ?>/service-page4.jpg" alt="Mashashi Kishimoto" width="140"
+      height="140">
     </div>
     <h2 class="text-center"><?= $service4Name ?></h2>
     <p class="min-line-3"><?= $service4 ?></p>
@@ -98,7 +99,8 @@ include($includesSrc . '/_header.php');
 
    <div class="col-lg-4">
     <div class="d-flex justify-content-center">
-     <img class="rounded-circle" src="<?= $imageSrc ?>/service-page5.JPG" alt="Generic placeholder image" width="140" height="140">
+     <img class="rounded-circle" src="<?= $imageSrc ?>/service-page5.JPG" alt="Generic placeholder image" width="140"
+      height="140">
     </div>
     <h2 class="text-center"><?= $service5Name ?></h2>
     <p class="min-line-3"><?= $service5 ?></p>
@@ -107,7 +109,8 @@ include($includesSrc . '/_header.php');
 
    <div class="col-lg-4">
     <div class="d-flex justify-content-center">
-     <img class="rounded-circle" src="<?= $imageSrc ?>/service-page6.jpg" alt="Generic placeholder image" width="140" height="140">
+     <img class="rounded-circle" src="<?= $imageSrc ?>/service-page6.jpg" alt="Generic placeholder image" width="140"
+      height="140">
     </div>
     <h2 class="text-center"><?= $service6Name ?></h2>
     <p class="min-line-3"><?= $service6 ?></p>
@@ -126,7 +129,8 @@ include($includesSrc . '/_header.php');
     <p class="min-line-5 lead"><?= $service8 ?></p>
    </div>
    <div class="col-md-5 order-md-1">
-    <img class="featurette-image img-fluid mx-auto" src="<?= $imageSrc ?>/service-page8.jpg" alt="Generic placeholder image">
+    <img class="featurette-image img-fluid mx-auto" src="<?= $imageSrc ?>/service-page8.jpg"
+     alt="Generic placeholder image">
    </div>
   </div>
 
@@ -138,7 +142,8 @@ include($includesSrc . '/_header.php');
     <p class="min-line-5 lead"><?= $service9 ?></p>
    </div>
    <div class="col-md-5 order-md-1">
-    <img class="featurette-image img-fluid mx-auto" src="<?= $imageSrc ?>/service-page9.png" alt="Generic placeholder image">
+    <img class="featurette-image img-fluid mx-auto" src="<?= $imageSrc ?>/service-page9.png"
+     alt="Generic placeholder image">
    </div>
   </div>
 
@@ -150,7 +155,8 @@ include($includesSrc . '/_header.php');
     <p class="min-line-5 lead"><?= $service10 ?></p>
    </div>
    <div class="col-md-5">
-    <img class="featurette-image img-fluid mx-auto" src="<?= $imageSrc ?>/service-page10.jpg" alt="Generic placeholder image">
+    <img class="featurette-image img-fluid mx-auto" src="<?= $imageSrc ?>/service-page10.jpg"
+     alt="Generic placeholder image">
    </div>
   </div>
 

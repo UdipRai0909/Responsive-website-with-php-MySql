@@ -11,7 +11,7 @@ $imageSrc = 'http://localhost:8080/' . $projectName . '/resources/images(royalty
 include($includesSrc . '/_header.php');
 ?>
 
-<div class="container MyPricingInfo-container p-0 pt-sm-2 pt-md-3 pt-lg-5">
+<div class="container MyPricingInfo-container p-0 pt-sm-2 pt-md-3 mt-2 pt-lg-5">
  <div class="row container-fluid p-0 business-info">
   <div class="col-sm-3 col-md-4 col-lg-5 p-0 bg-danger d-flex justify-content-center">
    <img src="<?= $imageSrc; ?>/pricing_page-man.jpg" alt="Business man profile" />
@@ -79,7 +79,7 @@ include($includesSrc . '/_header.php');
 
 <div class="pricing-table demo10">
  <div class="container pr-table">
-  <h4 class="py-4 text-center display-4">Pricing Table</h4>
+  <h4 class="py-4 text-center display-4 bg-opac-black p-5 text-white font-railway">Pricing Table</h4>
   <div class="row">
    <div class="col-md-3 col-sm-6">
     <div class="pricingTable10">
