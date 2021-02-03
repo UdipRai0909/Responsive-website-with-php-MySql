@@ -8,8 +8,8 @@
 
    1. javascript and jQuery validation
    1. php validation
-   1. jquery Search contents in page
-   1. php Search funnctionality (will add later)
+   1. Search contents in page with FindAndReplaceDom jquery Library
+   1. php Search functionality (will add later)
 
 ## Database used:
 
@@ -35,7 +35,7 @@ MySQL
 
 ## Video Demo
 
-[link text itself]
+[https://drive.google.com/file/d/1IucqQBp-KlqVh_gt3Pdre8nrf-m7s4ln/view?usp=sharing]
 
 ## Steps to reproduce
 
@@ -73,3 +73,18 @@ MySQL
 
 1. If you've done all the steps correctly, you should be able to see some changes to the avatar-image and page redirects.
    Try to see what happens if you log out.
+   
+## Future Improvements
+
+***Date: Feb 3, 2021***
+
+   1. Honestly, the bootstrap classes are not managed properly. I will be sure to implement proper rules and technique.
+
+   1. The css is too crowded. I need to modify my css into scss or less.
+
+   1. I am going to add a bunch of forms in the future while practicing other stuff.
+
+   1. Too much of a hassle to start XAMPP. I am gonna have to experiment on other databases.
+
+   1. I need to work a little bit on Javascript and make the website more dynamic.
+
