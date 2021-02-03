@@ -542,6 +542,6 @@ $("#uploadImg").on({
 
 })(window);
 
-var searcher = new textSearcher("body .*", ".search-input", ".search-count");
+var searcher = new textSearcher(".container", ".search-input", ".search-count");
 
 searcher._search();

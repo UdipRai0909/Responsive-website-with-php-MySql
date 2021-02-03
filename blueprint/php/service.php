@@ -85,7 +85,7 @@ include($includesSrc . '/_header.php');
  <div class="container mt-5 pl-5 marketing services-market">
 
   <!-- Three columns of text below the carousel -->
-  <div class="row">
+  <div class="row bg-opac-whiteHard py-4 px-2">
 
    <div class="col-lg-4">
     <div class="d-flex justify-content-center">
@@ -123,7 +123,7 @@ include($includesSrc . '/_header.php');
 
   <hr class="featurette-divider">
 
-  <div class="row featurette">
+  <div class="row featurette bg-opac-whiteHard p-2">
    <div class="col-md-7">
     <h2 class="featurette-heading">Swift and Reliable <span class="text-muted">It'll blow your mind.</span></h2>
     <p class="min-line-5 lead"><?= $service8 ?></p>
@@ -136,7 +136,7 @@ include($includesSrc . '/_header.php');
 
   <hr class="featurette-divider">
 
-  <div class="row featurette">
+  <div class="row featurette bg-opac-whiteHard p-2">
    <div class="col-md-7 order-md-2">
     <h2 class="featurette-heading">Easy Access and Utility <span class="text-muted">See for yourself.</span></h2>
     <p class="min-line-5 lead"><?= $service9 ?></p>
@@ -149,7 +149,7 @@ include($includesSrc . '/_header.php');
 
   <hr class="featurette-divider">
 
-  <div class="row featurette">
+  <div class="row featurette bg-opac-whiteHard p-2">
    <div class="col-md-7">
     <h2 class="featurette-heading">Delivery at your doorsteps! <span class="text-muted">Checkmate.</span></h2>
     <p class="min-line-5 lead"><?= $service10 ?></p>

@@ -17,7 +17,7 @@ include($includesSrc . '/_header.php');
 
 
 <!-- Info Container -->
-<div class="h-25 MyInfo-container bg-opac-black p-5 text-white">
+<div class="h-25 MyInfo-container container bg-opac-black p-5 text-white">
  <h1>Welcome To Your Sales Journey</h1>
  <p>In this site, you can purchase and sell different items of your choice.
   <br />
@@ -27,7 +27,7 @@ include($includesSrc . '/_header.php');
 </div>
 
 <!-- Sliders Container -->
-<div class="MySlider-container">
+<div class="MySlider-container container">
  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol id="homePage-myCarouselIndicators" class="carousel-indicators">
    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
