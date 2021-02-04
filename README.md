@@ -1,4 +1,4 @@
-# Responsive website with php & MySql + Validation
+# Responsive website with PHP & MySql + Validation
 
 ## Features
 
@@ -6,10 +6,10 @@
 
 1. Login/Register Form with RegEx
 
-   1. javascript and jQuery validation
-   1. php validation
-   1. Search contents in page with FindAndReplaceDom jquery Library
-   1. php Search functionality (will add later)
+   1. Javascript and jQuery validation
+   1. PHP validation
+   1. Search contents in page with FindAndReplaceDom jquery library
+   1. PHP search functionality (will add later)
 
 ## Database used:
 
@@ -23,7 +23,7 @@ MySQL
 
 1. SQL
 
-1. Pure php (no framework)
+1. Pure PHP (no framework)
 
 ## Programs used
 
@@ -51,7 +51,7 @@ MySQL
    Memorize the port on the right hand side. (which in this case is 8080)
 
 1. Head over to your browser and go to this link below.
-   **localhost:8080/phpmyadmin**
+   **localhost:8080/phpPmyadmin**
 
 1. Click on SQL which is alongside Databases and paste the copied value from before.
    Now, run then query by holding **Ctrl + Enter** in your keyboard at the same time.
@@ -73,18 +73,17 @@ MySQL
 
 1. If you've done all the steps correctly, you should be able to see some changes to the avatar-image and page redirects.
    Try to see what happens if you log out.
-   
+
 ## Future Improvements
 
-***Date: Feb 3, 2021***
+**_Date: Feb 3, 2021_**
 
-   1. Honestly, the bootstrap classes are not managed properly. I will be sure to implement proper rules and technique.
+1.  Honestly, the bootstrap classes are not managed properly. I will be sure to implement proper rules and technique.
 
-   1. The css is too crowded. I need to modify my css into scss or less.
+1.  The css is too crowded. I need to modify my css into scss or less.
 
-   1. I am going to add a bunch of forms in the future while practicing other stuff.
+1.  I am going to add a bunch of forms in the future while practicing other stuff.
 
-   1. Too much of a hassle to start XAMPP. I am gonna have to experiment on other databases.
+1.  Too much of a hassle to start XAMPP. I am gonna have to experiment on other databases.
 
-   1. I need to work a little bit on Javascript and make the website more dynamic.
-
+1.  I need to work a little bit on Javascript and make the website more dynamic.
