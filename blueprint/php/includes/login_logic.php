@@ -91,7 +91,7 @@ if (isset($_POST['userLoginBtn'])) {
        echo "I am correctr.";
        $_SESSION['user_id'] = $row['user_id'];
        $_SESSION['first_name'] = $row['first_name'];
-       $_SESSION['last_name'] = $row['first_name'];
+       $_SESSION['last_name'] = $row['last_name'];
        $_SESSION['user_name'] = $row['user_name'];
        $_SESSION['email_address'] = $row['email_address'];
        $_SESSION['user_avatar_image'] = $row['user_avatar_image'];
