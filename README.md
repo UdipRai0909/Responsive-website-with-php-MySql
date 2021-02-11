@@ -13,7 +13,7 @@
 
 ## Database used:
 
-1. MySQL
+MySQL
 
 ## Language used:
 
@@ -51,7 +51,7 @@
    Memorize the port on the right hand side. (which in this case is 8080)
 
 1. Head over to your browser and go to this link below.
-   **localhost:8080/phpmyadmin**
+   **localhost:8080/phpPmyadmin**
 
 1. Click on SQL which is alongside Databases and paste the copied value from before.
    Now, run then query by holding **Ctrl + Enter** in your keyboard at the same time.
