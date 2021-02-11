@@ -13,7 +13,7 @@
 
 ## Database used:
 
-MySQL
+1. MySQL
 
 ## Language used:
 
